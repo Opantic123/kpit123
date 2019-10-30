@@ -2,7 +2,7 @@
  
 int main()
 {
-  int n, sum = 0, , value;
+  int n, sum = 0,c, value;
  
   printf("How many numbers you want to add?\n");
   scanf("%d", &n);
@@ -17,5 +17,5 @@ int main()
  
   printf("Sum of the integers = %d\n", sum);
  
-  return ;
+  return 0 ;
 }
